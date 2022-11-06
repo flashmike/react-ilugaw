@@ -1,8 +1,8 @@
 {
+  "homepage": "https://flashmike.github.io/react-ilugaw",
   "name": "ilugaw-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://flashmike.github.io/react-ilugaw",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
