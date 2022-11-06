@@ -11,7 +11,7 @@ function Footer() {
         <FacebookIcon /> <InstagramIcon /> <TwitterIcon />
       </div>
       <p className="reactified">&copy; 2022 iLUGAW.com | All Rights Reserved.</p>
-      <p className="reactified">Reactified by <a href="https://flashmike.com">flashmike.com</a></p>
+      <p className="reactified">Reactified by <a href="https://flashmike.com" target="_blank" rel="noopener noreferrer">flashmike.com</a></p>
     </div>
   );
 }

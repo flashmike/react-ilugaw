@@ -11,30 +11,30 @@ function Navbar() {
     const toggleNavbar = () => {
         setShowLinks(!showLinks);
     };
-    
-   return (
-    <div className="navbar">
-        <div className="leftSide" id={showLinks ? "open" : "close"}>
-            <img src={logo} alt="iLugaw" />
-            <div className="hiddenLinks">
-            <Link to="/">Home</Link>
-            <Link to="/menu">Menu</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+
+    return (
+        <div className="navbar">
+            <div className="leftSide" id={showLinks ? "open" : "close"}>
+                <a href="/"><img src={logo} alt="iLugaw" /></a>
+                <div className="hiddenLinks">
+                    <Link to="/">Home</Link>
+                    <Link to="/menu">Menu</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
+                </div>
+            </div>
+
+            <div className="rightSide">
+                <Link to="/">Home</Link>
+                <Link to="/menu">Menu</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+                <button onClick={toggleNavbar}>
+                    <ReorderIcon />
+                </button>
             </div>
         </div>
-
-        <div className="rightSide">
-            <Link to="/">Home</Link>
-            <Link to="/menu">Menu</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <button onClick={toggleNavbar}>
-                <ReorderIcon />
-            </button>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Navbar;
