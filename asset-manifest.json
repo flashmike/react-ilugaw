@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ilugaw/static/css/main.ce96a547.css",
-    "main.js": "/react-ilugaw/static/js/main.72bdf09a.js",
+    "main.js": "/react-ilugaw/static/js/main.695581d4.js",
     "static/media/plain.jpg": "/react-ilugaw/static/media/plain.40b05c9a828fe16c7b78.jpg",
     "static/media/fruits.jpg": "/react-ilugaw/static/media/fruits.7ae61d8b42a53f3711df.jpg",
     "static/media/arroz-caldo.jpg": "/react-ilugaw/static/media/arroz-caldo.34faeb858bd24f60f8f5.jpg",
@@ -12,10 +12,10 @@
     "static/media/banana.webp": "/react-ilugaw/static/media/banana.6d776224d83e7bc5de72.webp",
     "index.html": "/react-ilugaw/index.html",
     "main.ce96a547.css.map": "/react-ilugaw/static/css/main.ce96a547.css.map",
-    "main.72bdf09a.js.map": "/react-ilugaw/static/js/main.72bdf09a.js.map"
+    "main.695581d4.js.map": "/react-ilugaw/static/js/main.695581d4.js.map"
   },
   "entrypoints": [
     "static/css/main.ce96a547.css",
-    "static/js/main.72bdf09a.js"
+    "static/js/main.695581d4.js"
   ]
 }
